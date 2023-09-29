@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clube das Galinhas</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body id="cor">
+  <!-- home -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo-m-png.png" img-responsive height="100">
+      </a>
+
+
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nav-principal"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse flex-grow-0 " id="nav-principal">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item h4">
+            <a href="index.html" class="nav-link"> Início </a>
+          </li>
+          <li class="nav-item h4">
+            <a href="#sobre" class="nav-link"> Sobre </a>
+          </li>
+          <li class="nav-item h4">
+            <a href="#contato" class="nav-link"> Contato </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- fim home -->
+
+
+  <div class="elipse-fundo">
+    <!-- Carrousel -->
+    <div class="stories-container">
+      <div class="content">
+
+        <div class="previous-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </div>
+
+        <div class="stories"></div>
+
+        <div class="next-btn active">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="stories-full-view">
+      <div class="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </div>
+
+      <div class="content">
+        <div class="previous-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </div>
+
+        <div class="story">
+          <img src="img/galinha choca.jpg" alt="" />
+          <div class="author">Author</div>
+        </div>
+
+        <div class="next-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fim carrousel -->
+  <!-- inicio, imagem, video e botão ovo -->
+  <div class="fundo">
+    <div class="container-0">
+      <div id="caixao">
+        <div id="redondo">
+          <img src="Group 12.png" alt="galinha em um campo verde">
+        </div>
+        <div id="video">
+          <iframe width="650" height="300"
+            src="https://www.youtube.com/embed/-teoNHto5YA?si=5VxtdCSHJQHCtZLD&amp;start=85"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="botao-ovos">
+        <img src="b-ovos.png" alt="botão ovos">
+      </div>
+    </div>
+    <!-- fim, imagem, video e botão ovo -->
+    <h2 class="h2-galinhas">Galinhas</h2>
+  </div>
+
+  <!-- imagens galinhas -->
+
+  <div class="angry-grid">
+    <div id="item-01">
+      <img src="img/galinha e pintinhos bebendo agua.jpg" alt="pintinhos tomando sol">
+    </div>
+    <div id="item-12">
+      <img src="img/linda.jpg" alt="galinhas comendo sobre um gramado verde">
+    </div>
+    <div id="item-23">
+      <img src="img/pintinhos-sol.jpg" alt="pintinho saindo do ovo">
+    </div>
+    <div id="item-34">
+      <h3>Você sabia?</h3>
+      <p>Temos um ancestral comum com as galinhas: 60% dos genes das galinhas são iguais aos dos humanos. Inclusive, suas raízes são pré-históricas, sendo as parentes vivas mais próximas do tiranossauro rex.</p>
+      <p>Galinhas são extremamente sociáveis e precisam de amigas galinhas para florescerem. Têm melhores amigas, com as quais gostam de fofocar, brigar, compartilhar comida, tomar banho de pó e de sol.</p>
+    </div>
+    <div id="item-45">
+      <img src="img/galo e galinha.jpg" alt="galo da raça galobre cheio de penas">
+    </div>
+    <div id="item-56">
+      <h3></h3>
+      <p>As galinhas mamães falam com os pintinhos enquanto eles ainda estão nos ovos, e os pintinhos conseguem responder enquanto estão na casca.
+        <br>
+        Reconhecem outras galinhas e animais. Os filhotes imprimem a imagem de sua mãe na memória entre 24h e 36h após o nascimento.
+        Quando se alimentam, ingerem pedras e terra, que ajudam na sua digestão.
+        <br>
+        Sua visão é muito melhor do que a humana: enquanto os seres humanos têm três tipos diferentes de cones em seus olhos que nos permitem ver o vermelho, o verde e o azul, as galinhas têm dois tipos adicionais, que lhes permitem distinguir a luz violeta e ultravioleta. 
+        <br>
+        É por isso que eles cantam de manhã cedo elas percebem o nascer do sol uma hora antes dos humanos.</p>
+    </div>
+  </div>
+
+  <!-- h2 sobre -->
+  <div id="sobre">
+  <h2 class="h2-sobre">Sobre</h2>
+  </div>
+  <!-- fim h2 sobre -->
+
+  <!-- inicio carrousel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/pose.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Raças</h5>
+          <p>Existem mais de 300 raças puras e variedades de galinhas.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/fotografa.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Galinha feliz!</h5>
+          <p>Galinha feliz é aquela que expressa um comportamento natural, ou seja, ciscar, dormir em poleiro, pastar, tomar banho de areia, bater asas, empoleirar, ter espaço suficiente para se movimentar.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/galinha choca.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Galinha Choca</h5>
+          <p>Em média uma galinha choca 15 ovos.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  <!-- fim carrousel -->
+
+  <div class="laranja">
+    <div class="bola-l">
+      <h3>Quem nasceu primeiro?</h3>
+      <ul>
+        <p>Antes de responder:</p>
+        <Ajuda>Os ovos são grandes fontes de proteínas e vitaminas do complexo B, importantíssimas para fornecer energia, ajuda a memória e a concentração, auxilia na perda de peso, melhora o sistema imunológico, ajuda a reduzir o colesterol ruim e aumenta o colesterol bom, combate a anemia, previne o envelhecimento precoce e mantem a saúde dos dentes e dos ossos.
+        <h3>Mais a final quem nasceu primeiro?</h3>
+        <p>A nova descoberta contraria a teoria de que o ovo veio primeiro. Para alguns cientistas que partem da ideia de que as galinhas descendem dos dinossauros, o ovo teria vindo primeiro, ele teria surgido há cerca de 340 milhões de anos, enquanto as galinhas só apareceram bem depois, há 50 milhões de anos.</p>
+      </ul>
+     
+    </div>
+    <div class="img-bola">
+      <img src="img/ovo coracao.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="fundo-cont2">
+  <div class="angry-gridd">
+    <div id="item-00">
+      <img src="img/missao.jpg" alt="">
+      <h4>Missão</h4>
+      <p>Participar da vida das pessoas, oferecendo informações, com qualidade, inovação em escala mundial.</p>
+
+    </div>
+    <div id="item-11">
+      <img src="img/visao.webp" alt="">
+      <h4>Visão</h4>
+      <p>Sermos um site de informação, admirada por amantes de galinhas,contribuindo para um mundo melhor e sustentável.</p>
+    </div>
+    <div id="item-22">
+      <img src="img/valores.webp" alt="">
+      <h4>Valores</h4>
+      <p>Integridade como base de qualquer relação, respeito pelos animais e desenvolvimento sustentável.</p>
+    </div>
+  </div>
+</div>
+
+  <!-- começo contato -->
+  <div id="contato">
+  <div class="fundo-cont">
+    <h2 class="h2-cont">Contatos</h2>
+  <div class="angry-grid-1">
+    <div id="item0">
+      <h3>Endereço</h3>
+      <br>
+      <p>R. dos Beija-Flores, 1501-1451 - Chácara das Garças</p>
+      <br>
+      <h3>Contato</h3>
+      <br>
+      <p><b>Telefone: </b>(11) 90000-0000</p>
+      <p><b>E-mail: </b>clubedasgalinhas@galinhas.com.br</p>
+
+    </div>
+    <div id="item2">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.575307208818!2d-46.929864544537935!3d-23.42495192860401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1b0eae2ba229%3A0x108345b8e141be4b!2sR.%20dos%20Beija-Flores%2C%201501-1451%20-%20Ch%C3%A1cara%20das%20Garcas%2C%20Santana%20de%20Parna%C3%ADba%20-%20SP%2C%2006526-010!5e1!3m2!1spt-BR!2sbr!4v1695935555598!5m2!1spt-BR!2sbr" width="888" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+</div>
+  <!-- fim contato -->
+  <!-- footer -->
+  <div class="fundo-footer">
+      <img src="img/logo.png" alt="">
+      <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+      <i class="fa-brands fa-whatsapp" style="color: #000000;"></i>
+      <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+     
+
+      <ul class="home-menu">
+        <a href="index.html"><h4>Home</h4></a>
+        <a href="#sobre"><h4>Sobre</h4></a>
+        <a href="#contato"><h4>Contatos</h4></a>
+        
+      </ul>
+  </div>
+  <div class="direitos">
+    <p>© 2023 Esse site tem como fim educacional | Desenvolvido por: <a href="www.linkedin.com/in/talisson-henrique-santos-37263512b">Talisson Santos</a></p>
+  </div>
+  <!-- fim footer -->
+
+  <div class="footer">
+    <ul class="home-menu">
+      <a href="index.html"><h4>Home</h4></a>
+      <a href="#sobre"><h4>Sobre</h4></a>
+      <a href="#contato"><h4>Contatos</h4></a>
+    </ul>
+
+    <p>© 2023 Esse site tem como fim educacional | Desenvolvido por: <a href="https://www.linkedin.com/in/talisson-henrique-santos-37263512b/" target="_blank">Talisson Santos </a></p>
+  </div>
+  
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
